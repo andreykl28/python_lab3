@@ -1,4 +1,4 @@
-# Лабораторная работа 3
+# Лабораторная работа 3 (вариант: Medium)
 
 Алгоритмический мини‑пакет: функции факториала и Фибоначчи, набор сортировок, стек/очередь, генераторы тестовых данных и CLI для бенчмарков. 
 
@@ -7,7 +7,7 @@
 ## Состав
 - Последовательности: `factorial`, `factorial_recursive`, `fibo`, `fibo_recursive` (проверка на некорректные входы, кеш для рекурсивных).
 - Сортировки: `bubble_sort`, `quick_sort`, `counting_sort`, `radix_sort`, `bucket_sort`, `heap_sort` с поддержкой `key`/`cmp` там, где это уместно (counting/radix валидируют целочисленные ключи, bucket нормализует числовые).
-- Структуры данных: `Stack` с `min()` за O(1), `Queue` на двух стеках; бросают `IndexError` на некорректных операциях.
+- Структуры данных: `Stack` с `min()` за O(1), `Queue` на двух стеках; выдают `IndexError` на некорректных операциях.
 - Генераторы: `rand_int_array`, `nearly_sorted`, `many_duplicates`, `reverse_sorted`, `rand_float_array`.
 - Бенчмарки: `timeit_once`, `benchmark_sorts` и CLI для прогонов.
 
